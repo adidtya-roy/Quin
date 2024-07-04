@@ -1,0 +1,527 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* background-color: rgb(255, 252, 241);; */
+    background-color: #022c24;
+    color: rgb(8, 59, 1);
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* this is the header div desing start */
+.head-main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 7rem;
+    background-color: rgb(255, 252, 241);
+    ;
+
+}
+
+/* this is the "header nav design" start */
+.head-main-container .head-top-nav-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    backdrop-filter: saturate(80%) blur(20px);
+    background-color: rgba(255, 248, 237, .5);
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.head-main-container .head-top-nav-container .head-nav-con {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+
+}
+
+.head-main-container .head-top-nav-container .head-top-nav-button button {
+    width: 124.41px;
+    height: 36px;
+    padding: 6px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #0C382F;
+    color: white;
+}
+
+/* this is the  "head-body-container-text" design start*/
+.head-main-container .head-body-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.head-main-container .head-body-container .head-body-con-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.head-main-container .head-body-container .head-body-con-text h1 {
+    letter-spacing: -.175rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 6rem;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.head-main-container .head-body-container .head-body-con-text p {
+    opacity: .8;
+    margin-bottom: 0;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.head-main-container .head-body-container .head-body-con-text .head-body-con-text-button {
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.head-main-container .head-body-container .head-body-con-text .head-body-con-text-button .btn-1 button {
+    background-color: #E4F223;
+    color: #0C382F;
+    border: none;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.head-main-container .head-body-container .head-body-con-text .head-body-con-text-button .btn-2 button {
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: rgb(255, 252, 241);
+    color: #0C382F;
+    text-align: center;
+    letter-spacing: -.01rem;
+    padding: .75rem 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 110%;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+/*  this is the  "head-body-container-tect" design end */
+
+/*   this is the  "head-body-container-img" design start*/
+.head-main-container .head-body-container .classhead-body-con-img {
+    background-image: url(./img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.head-main-container .head-body-container .classhead-body-con-img .main-img {
+    width: 80%;
+    padding-bottom: 3rem;
+
+}
+
+.head-main-container .head-body-container .classhead-body-con-img .main-img img {
+    max-width: 100%;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+/* this is the header div desing end */
+
+/* this is the "main-1st-container" design start */
+.main-1st-container {
+    display: flex;
+    gap: 5rem;
+    padding: 1rem;
+    color: white;
+    background-color: #1f5e51;
+    padding-top: 5rem;
+    justify-content: center;
+    padding-bottom: 6rem;
+
+}
+
+/* this is "main-1st-container"--img container design */
+.main-1st-container .main-1st-con-img {
+    display: flex;
+    width: 500px;
+    height: 800px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.main-1st-container .main-1st-con-img .con-img {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    border: 3px solid rgb(255, 255, 255, 0.4);
+    border-radius: 1.5rem;
+}
+
+.main-1st-container .main-1st-con-img .con-img img {
+    width: 100%;
+    border-radius: 1.4rem;
+
+}
+
+/* this is "main-1st-container"--text container design */
+.main-1st-container .main-1st-con-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-1st-container .main-1st-con-text h1 {
+    letter-spacing: -.1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 4.5rem;
+    font-weight: 500;
+    line-height: 110%;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+
+}
+
+.main-1st-container .main-1st-con-text p {
+    opacity: .8;
+    margin-bottom: 0;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 150%;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+/* details tag design */
+.main-1st-container .main-1st-con-text .text-con-details {
+    line-height: 60px;
+
+}
+
+.main-1st-container .main-1st-con-text .text-con-details .text-con-det .det-summ {
+    font-size: 2rem;
+    margin: 10px 0px;
+    color: #E4F223;
+}
+
+/* this is the "main-1st-container" design end */
+
+/* this is the "main-2nd-container" design start */
+.main-2nd-container {
+    width: 100%;
+    background-color: #0e4d41;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+
+    transform: translate(0px, -30px);
+    padding-bottom: 100px;
+}
+
+/* this is top "h2 & p" design */
+.main-2nd-container h2 {
+    display: block;
+    font-size: 4rem;
+    margin-top: 50px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.main-2nd-container p {
+    display: block;
+    font-size: large;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    unicode-bidi: isolate;
+    text-align: center;
+}
+
+/* cards design steart*/
+.main-2nd-container .cards-con {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+
+}
+
+.main-2nd-container .cards-con .card {
+    width: 45%;
+    margin: 10px;
+    border-radius: 2rem;
+    border: solid 5px #035807;
+    background: rgb(250, 255, 175);
+    background: linear-gradient(0deg, rgb(246, 250, 198) 0%, rgba(228, 243, 240, 1) 35%);
+    display: flex;
+    flex-direction: column;
+}
+
+.main-2nd-container .cards-con .card:hover {
+    background: rgb(231, 238, 141);
+    background: linear-gradient(0deg, rgb(236, 245, 140) 0%, rgba(228, 243, 240, 1) 35%);
+    transform: scale(1.01);
+    border: solid 5px gray;
+}
+
+.main-2nd-container .cards-con .card .card-text {
+    color: #022c24;
+    width: 100%;
+    height: 30vh;
+
+}
+
+.main-2nd-container .cards-con .card .card-text h3 {
+    display: block;
+    font-size: 350%;
+    font-weight: 700;
+    unicode-bidi: isolate;
+    padding-top: 2rem;
+
+
+}
+
+.main-2nd-container .cards-con .card .card-text p {
+    display: block;
+    unicode-bidi: isolate;
+    margin-bottom: 0;
+    font-size: 150%;
+    font-weight: 400;
+    line-height: 150%;
+    padding-bottom: 3rem;
+    margin: 0px 50px;
+}
+
+.main-2nd-container .cards-con .card .btn button {
+    color: #022c24;
+    background-color: rgba(255, 255, 255, 0);
+    width: 8rem;
+    height: 2.5rem;
+    border: 1px solid #022c24;
+    font-size: large;
+    border-radius: 0.5rem;
+
+}
+
+.main-2nd-container .cards-con .card .btn button:hover {
+    color: white;
+    background-color: #022c24;
+}
+
+.main-2nd-container .cards-con .card .img {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.main-2nd-container .cards-con .card .img img {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/* this is the "main-2nd-container" design end*/
+
+/* this is the "main-3nd-container" design start */
+.main-3rd-container {
+    background-color: #054236;
+    color: white;
+    width: 100%;
+    height: 1000px;
+    padding-top: 100px;
+    transform: translate(0px, -60px);
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding-bottom: 100px;
+}
+
+.main-3rd-container .con-3-round-bg {
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/con3-round-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-3rd-container .con-3-round-bg .con-3-form-box {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.main-3rd-container .con-3-round-bg .con-3-form-box h4 {
+    font-size: 300%;
+    font-weight: 900;
+    margin-bottom: 40px;
+    line-height: 50px;
+}
+
+.main-3rd-container .con-3-round-bg .con-3-form-box p {
+    font-size: 120%;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.main-3rd-container .con-3-round-bg .con-3-form-box .form-items-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.main-3rd-container .con-3-round-bg .con-3-form-box .form-items-box .name input {
+    width: 42.5%;
+    height: 10px;
+    padding: 20px;
+    border: none;
+    font-size: large;
+    margin-bottom: 20px;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.main-3rd-container .con-3-round-bg .con-3-form-box .form-items-box .email input {
+    width: 93%;
+    height: 10px;
+    padding: 20px;
+    border: none;
+    font-size: large;
+    margin-bottom: 20px;
+    border-radius: 0.5rem;
+    display: flex;
+    font-weight: bold;
+}
+
+.main-3rd-container .con-3-round-bg .con-3-form-box .form-items-box .btn button {
+    width: 100%;
+    height: 20px;
+    padding: 20px;
+    border: none;
+    font-size: large;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E4F223;
+    margin-bottom: 100px;
+}
+
+.main-3rd-container .con-3-round-bg .con-3-form-box .form-items-box .btn button:hover {
+    background-color: #ff9816;
+}
+
+/* this is the "main-3nd-container" design start */
+.top-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.top-footer a {
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.top-footer a:hover {
+    color: #E4F223;
+}
+
+
+/* basic Responsive.......in this "web-design" */
+    /* small desktop design */
+@media (min-width:1024px) and (max-width:1350px) {
+    .main-3rd-container .con-3-round-bg .con-3-form-box {
+        width: 40%;
+        padding-top: 20px;
+    }
+
+
+    .main-3rd-container .con-3-round-bg .con-3-form-box h4 {
+        font-size: 250%;
+        margin-bottom: 20px;
+    }
+
+    .main-3rd-container .con-3-round-bg .con-3-form-box p {
+        font-size: medium;
+        margin-bottom: 20px;
+    }
+
+
+    .main-3rd-container .con-3-round-bg .con-3-form-box .form-items-box .name input {
+        width: 39%;
+    }
+
+    .main-3rd-container .con-3-round-bg .con-3-form-box .form-items-box .email input {
+        width: 90%;
+    }
+}
+
+    /* medium desktop design */
+@media (min-width:1351px) and (max-width:1897px) {
+
+    .main-3rd-container .con-3-round-bg .con-3-form-box .form-items-box .name input {
+        width: 39%;
+    }
+
+    .main-3rd-container .con-3-round-bg .con-3-form-box .form-items-box .email input {
+        width: 90%;
+    }
+}
